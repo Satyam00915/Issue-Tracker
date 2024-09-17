@@ -1,8 +1,8 @@
 
 const page = () => {
   return (
-    <div>
-      
+    <div className="text-black">
+      Issues
     </div>
   )
 }
