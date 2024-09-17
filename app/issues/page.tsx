@@ -1,11 +1,13 @@
 import { Button } from "@radix-ui/themes";
-const page = () => {
+import Link from "next/link";
+const Issue = () => {
   return (
     <div className="text-black">
-      Issues
-      <Button>eamfl</Button>
+      <Button>
+        <Link href="/issues/new">New Issue</Link>
+      </Button>
     </div>
   );
 };
 
-export default page;
+export default Issue;
