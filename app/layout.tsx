@@ -29,7 +29,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Theme accentColor="gold" grayColor="gray" scaling="105%">
+        <Theme
+          accentColor="blue"
+          grayColor="gray"
+          panelBackground="solid"
+          radius="full"
+        >
           <Navbar />
           <main className="p-5">{children}</main>
           {/* <ThemePanel /> */}
